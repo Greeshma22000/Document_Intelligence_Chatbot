@@ -1,0 +1,252 @@
+/* ---------- Global ---------- */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  /* background: linear-gradient(135deg, #667eea, #764ba2); */
+  background: linear-gradient(135deg, #667eea, #6e1dbf);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ---------- Main Container ---------- */
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* ---------- Upload Section ---------- */
+
+.upload-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.upload-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  
+}
+
+.upload-box button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #2a20b1;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.upload-box button:hover {
+  background: #1445d9;
+}
+
+/* ---------- Chat Window ---------- */
+
+.chat-box {
+  flex: 1;
+  overflow-y: auto;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Messages ---------- */
+
+.message {
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  max-width: 70%;
+  line-height: 1.4;
+  word-wrap: break-word;
+  animation: fadeIn 0.3s ease;
+}
+
+/* User message */
+
+.user {
+  align-self: flex-end;
+  background: #4cafef;
+  color: white;
+  border-bottom-right-radius: 3px;
+}
+
+/* Assistant message */
+
+.assistant {
+  align-self: flex-start;
+  background: #958ed3;
+  color: white;
+  border-bottom-left-radius: 3px;
+}
+
+/* ---------- Input Section ---------- */
+
+.input-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.input-box button {
+  padding: 12px 25px;
+  border: none;
+  font-size: 15px;
+  border-radius: 20px;
+  background: rgb(51, 198, 56);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.input-box button:hover {
+  background: #3e9142;
+}
+
+/* ---------- Scrollbar ---------- */
+
+.chat-box::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.4);
+  border-radius: 10px;
+}
+
+/* ---------- Animation ---------- */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg,#667eea,#764ba2);
+  min-height: 100vh;
+}
+
+.app{
+  max-width:1000px;
+  margin:auto;
+  padding:20px;
+  color:white;
+}
+
+h1{
+  text-align:center;
+}
+
+.upload-box{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+.upload-box input{
+  padding: 10px;
+  background: rgb(162, 98, 183);
+  border-radius: 15px;
+}
+
+.upload-box button{
+  padding:8px 15px;
+  border:none;
+  background:#ff9800;
+  color:white;
+  cursor:pointer;
+  border-radius: 20px;
+}
+
+.chat-box{
+  background:white;
+  color:black;
+  height:400px;
+  overflow-y:auto;
+  padding:15px;
+  border-radius:10px;
+  margin-bottom:20px;
+}
+
+.message{
+  padding:10px;
+  margin-bottom:10px;
+  border-radius:8px;
+  max-width:70%;
+}
+
+.user{
+  display: flex;
+  background:#d1e7ff;
+  margin-left:auto;
+  align-items: flex-end;
+}
+
+.assistant{
+  background:#2ca5bd;
+  color: white;
+  justify-content: flex-start;
+}
+
+.input-box{
+  display:flex;
+  gap:10px;
+}
+
+.input-box input{
+  flex:1;
+  padding:10px;
+  border:none;
+  border-radius:15px;
+}
+
+.input-box button{
+  padding:10px 20px;
+  border:none;
+  background:#4caf50;
+  color:white;
+  cursor:pointer;
+  border-radius: 20px;
+} */
