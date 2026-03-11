@@ -7,3 +7,11 @@ A chatbot that allows users to upload PDFs and ask questions based on document c
 - AI answers from document
 - Document summary
 ## Project Structure
+|
+├── frontend/
+├── backend/
+├── ai_layer/
+│ ├── rag/
+│ ├── retriever.py
+│ └── app.py
+└── README.md
