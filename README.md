@@ -105,3 +105,23 @@ pip install -r requirements.txt
 2.Start the server
     python -m uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 ```
+
+## Embeddings
+
+Embeddings convert text into numerical vectors. 
+Computers cannot understand text directly. 
+Vectors allow semantic similarity search
+Example:
+    Sentence → Vector
+    "What is refund rules?"
+    → [0.21, -0.45, 0.78, ...]
+
+## Chunking Strategy
+
+Splitting large documents into smaller pieces or chunks.
+LLMs have token limits.
+Chunking improves retrieval accuracy.
+We implement using:
+    RecursiveCharacterTextSplitter
+    Chunk size: 900
+    Overlap: 180 
