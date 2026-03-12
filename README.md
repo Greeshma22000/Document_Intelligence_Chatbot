@@ -12,7 +12,8 @@ Challenges:
     Extracting knowledge efficiently 
 
 #### Solution
-Build an AI System that
+Build an AI System that:
+
     Uploads and processes PDFs
     Converts documents into embeddings
     Stores them in a vector database
