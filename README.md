@@ -28,3 +28,15 @@ Project/
 |
 └── README.md
 ```
+## frontend_layer
+
+### Installations
+
+1. Create frontend
+```bash 
+npm create vite@latest .
+```
+2. To Run
+```bash
+npm run dev
+```
