@@ -128,3 +128,14 @@ We implement using:
     RecursiveCharacterTextSplitter
     Chunk size: 900
     Overlap: 180 
+
+## Vector Database
+
+A database that stores embeddings.
+Used to search similar text quickly.
+
+Used tool:
+
+    FAISS(Facebook AI Similarity Search)
+
+Efficient similarity search between vectors
