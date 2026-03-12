@@ -81,3 +81,10 @@ pypdf
 To install use 
 pip install -r requirements.txt  
 ```
+
+```bash
+1.Run this first
+    python rag/build_index.py 
+2.Start the server
+    python -m uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+```
