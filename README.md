@@ -140,3 +140,16 @@ Used tool:
     FAISS(Facebook AI Similarity Search)
 
 Efficient similarity search between vectors
+
+## Retrieval Augmented Generation(RAG)
+
+1. User asks question
+2. System converts question to embedding
+3. Vector DB finds similar document chunks
+4. Context passed to LLM
+5. LLM generates answer
+Advantage: It reduces hallucinations.
+
+## Conclusion
+
+This project implements a Retrieval Augmented Generation(RAG) system that processes PDF documents, converts them into embeddings stored in FAISS vector database, retrieves relevant document chunks for user queries, and generates grounded responses using an LLM.
