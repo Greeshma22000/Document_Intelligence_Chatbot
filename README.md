@@ -110,7 +110,8 @@ pip install -r requirements.txt
 
 Embeddings convert text into numerical vectors. 
 Computers cannot understand text directly. 
-Vectors allow semantic similarity search
+Vectors allow semantic similarity search.
+
 Example:
     Sentence → Vector
     "What is refund rules?"
