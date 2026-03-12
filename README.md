@@ -56,3 +56,28 @@ npm install express dotenv cors form-data multer node-fetch
 for dev dependence
 npm install nodemon -D
 ```
+
+```bash
+npm run dev
+```
+
+## ai_layer
+
+### Installations
+
+```bash
+fastapi
+uvicorn
+python-multipart
+langchain
+langchain-community
+langchain-text-splitters
+faiss-cpu
+sentence-transformers
+anthropic
+python-dotenv
+pypdf
+
+To install use 
+pip install -r requirements.txt  
+```
