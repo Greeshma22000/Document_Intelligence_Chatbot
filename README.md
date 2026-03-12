@@ -32,7 +32,7 @@ Project/
 
 ### Installations
 
-1. Create frontend
+
 ```bash 
 npm create vite@latest .
 enter
@@ -41,7 +41,18 @@ enter
 select typescript
 enter
 ```
-2. To Run
+
 ```bash
 npm run dev
+```
+
+## backend_layer
+
+### Installations
+
+```bash
+npm init -y
+npm install express dotenv cors form-data multer node-fetch
+for dev dependence
+npm install nodemon -D
 ```
