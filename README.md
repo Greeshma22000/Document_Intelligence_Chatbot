@@ -11,13 +11,13 @@ A chatbot that allows users to upload PDFs and ask questions based on document c
 
 ### Tech Stack
 
-- **React + TypeScript
-- **Node.JS + Express.JS
-- **FastAPI + FAISS + Embeddings + LLM
+- **React + TypeScript**
+- **Node.JS + Express.JS**
+- **FastAPI + FAISS + Embeddings + LLM**
 
 ## Project Structure
 ```
-Document Intelligence ChatBot
+Project/
 |
 ├── frontend_layer/
 ├── backend_layer/
