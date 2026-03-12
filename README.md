@@ -31,7 +31,7 @@ Build an AI System that
 - **React + TypeScript**
 - **Node.JS + Express.JS**
 - **FastAPI + FAISS + Embeddings + LLM**
-- FAISS also known as Vector DB
+- **FAISS also known as Vector DB**
 ## Project Structure
 ```
 Project/
