@@ -40,6 +40,7 @@ Project/
 ├── backend_layer/
 ├── ai_layer/
 |├── rag/docs
+|├── build_index.py
 |├── retriever.py
 |└── app.py
 |
