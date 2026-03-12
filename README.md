@@ -122,7 +122,9 @@ Example:
 Splitting large documents into smaller pieces or chunks.
 LLMs have token limits.
 Chunking improves retrieval accuracy.
+
 We implement using:
+
     RecursiveCharacterTextSplitter
     Chunk size: 900
     Overlap: 180 
