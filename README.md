@@ -35,6 +35,11 @@ Project/
 1. Create frontend
 ```bash 
 npm create vite@latest .
+enter
+select react
+enter
+select typescript
+enter
 ```
 2. To Run
 ```bash
