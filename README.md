@@ -6,6 +6,7 @@ A chatbot that allows users to upload PDFs and ask questions based on document c
 Organizations store large amounts of PDF documentations such as policies, manuals, research papers, and reports.
 However, finding specific information in large documents is difficult.
 Challenges:
+
     Finding specific information quickly
     Understanding long documents
     Extracting knowledge efficiently 
