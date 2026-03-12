@@ -113,6 +113,7 @@ Computers cannot understand text directly.
 Vectors allow semantic similarity search.
 
 Example:
+
     Sentence → Vector
     "What is refund rules?"
     → [0.21, -0.45, 0.78, ...]
