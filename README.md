@@ -39,7 +39,7 @@ Project/
 ├── frontend_layer/
 ├── backend_layer/
 ├── ai_layer/
-|├── rag/
+|├── rag/docs
 |├── retriever.py
 |└── app.py
 |
