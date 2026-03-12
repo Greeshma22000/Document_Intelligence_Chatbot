@@ -1,6 +1,23 @@
 # Document Intelligence ChatBot
 ## Introduction
 A chatbot that allows users to upload PDFs and ask questions based on document content using RAG, and generate answers using LLM.
+
+#### Problem statement
+Organizations store large amounts of PDF documentations such as policies, manuals, research papers, and reports.
+However, finding specific information in large documents is difficult.
+Challenges:
+    Finding specific information quickly
+    Understanding long documents
+    Extracting knowledge efficiently 
+
+#### Solution
+Build an AI System that
+    Uploads and processes PDFs
+    Converts documents into embeddings
+    Stores them in a vector database
+    Retrieves relevant chunks or information
+    Uses an LLM to generate answers
+
 ## Features
 - Upload PDF
 - Ask questions
