@@ -95,7 +95,7 @@ anthropic
 python-dotenv
 pypdf
 
-To install use 
+To install all of them use this  
 pip install -r requirements.txt  
 ```
 
